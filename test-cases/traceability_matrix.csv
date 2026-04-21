@@ -30,3 +30,11 @@ REQ-SEC-05,API responses must not expose unnecessary PII,TC-SEC-007,PIPEDA s.4.4
 REQ-SEC-06,Password field must be masked during entry,TC-SEC-008,,Covered
 REQ-SEC-07,App must not cache sensitive data after logout,TC-SEC-009,PIPEDA s.4.7,Covered
 REQ-SEC-08,Biometric authentication must work as login method,TC-SEC-010,,Covered
+REQ-AML-01,Structuring detection must flag cumulative transfers approaching or exceeding $10000 within 24 hours,"TC-AML-001, TC-AML-002, TC-AML-003, TC-AML-004",FINTRAC PCMLTFA,Covered
+REQ-AML-02,PEP screening must trigger enhanced due diligence flag at onboarding,"TC-AML-005, TC-AML-006",FINTRAC PCMLTFA,Covered
+REQ-AML-03,Sanctions screening must block registration and transactions for matched individuals,"TC-AML-007, TC-AML-008, TC-AML-009",OSFI OFAC,Covered
+REQ-AML-04,Dormant accounts inactive 90+ days must be flagged on transfers over $1000,TC-AML-010,FINTRAC PCMLTFA,Covered
+REQ-AML-05,Repeated round-number transfers must trigger suspicious pattern flag,TC-AML-011,FINTRAC PCMLTFA,Covered
+REQ-AML-06,Transfers to FATF high-risk jurisdictions must trigger additional scrutiny,TC-AML-012,FINTRAC PCMLTFA,Covered
+REQ-AML-07,Suspicious transaction report workflow must trigger on flagged transactions,TC-AML-013,FINTRAC s.7,Covered
+REQ-AML-08,AML alerts must require documented review reason before dismissal,TC-AML-014,FINTRAC PCMLTFA,Covered
